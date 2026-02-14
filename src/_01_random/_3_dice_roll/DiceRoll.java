@@ -13,6 +13,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 public class DiceRoll {
+	
+	
 
 	private JFrame window = new JFrame("Roll the Dice!");
 	private JPanel panel = new JPanel();
@@ -41,6 +43,7 @@ public class DiceRoll {
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "Could not find one or more dice images");
 			System.exit(0);
+			
 		}
 
 		label.setIcon(oneImg);
@@ -48,18 +51,19 @@ public class DiceRoll {
 		rollButton.addActionListener((e) -> {
 
 			// 1. Make randomChoice equal to a random number between 1 and 6
-			int randomChoice = 0;
+			
+			int randomChoice = ***
 
 			// 2. Fix the code below so that it displays the correct image
 			if (randomChoice == 0) {
 				label.setIcon(oneImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 1) {
 				label.setIcon(twoImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 2) {
 				label.setIcon(threeImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 3) {
 				label.setIcon(fourImg);
-			} else if (randomChoice == 0) {
+			} else if (randomChoice == 4) {
 				label.setIcon(fiveImg);
 			} else {
 				label.setIcon(sixImg);
