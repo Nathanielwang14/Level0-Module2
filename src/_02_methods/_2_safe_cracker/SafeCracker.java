@@ -29,6 +29,17 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */		
+		int e = 0;
+		 
+		Random ran = new Random();
+		
+		for (int i=0; i<999999999; i++) {
+			e = ran.nextInt();
+			System.out.println(number);
+				
+				
+				
+		tryCode(e);
 
 	}
 
