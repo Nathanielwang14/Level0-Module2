@@ -33,7 +33,6 @@ public class AnimalFarm {
 		/* 2. Make it so that the user can keep entering new animals. */
 		if(message.equals("cow")) {
 			playNoise(mooFile);
-		}else {
 			JOptionPane.showInputDialog(null, "what animal do you want?");
 		}
 	}
